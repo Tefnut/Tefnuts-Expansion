@@ -1,0 +1,60 @@
+[
+  {
+    "id": "13mm_gyro_casing",
+    "copy-from": "casing",
+    "looks_like": "9mm_casing",
+    "type": "GENERIC",
+    "name": "13mm Gyrojet casing",
+    "description": "An empty casing from a 13mm Gyrojet rocket.",
+    "weight": "3 g",
+    "volume": "5ml"
+  },
+
+
+  {
+    "id": "13mm_gyro",
+    "type": "AMMO",
+    "name": "13mm Gyrojet",
+    "description": "A non-explosive 13mm gyrojet rocket. Not incredibly damaging, especially at close range, but super long range, and super accurate.",
+    "weight": "9 g",
+    "volume": "250 ml",
+    "price": 220,
+    "price_postapoc": 2800,
+    "material": [ "brass" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "13mm_gyro",
+    "casing": "13mm_gyro_casing",
+    "range": 28,
+    "damage": 20,
+    "pierce": 4,
+    "dispersion": 5,
+    "recoil": 60
+  },
+  
+  {
+    "id": "13mm_gyro_explosive",
+    "type": "AMMO",
+    "name": "13mm Explosive Gyrojet",
+    "description": "An explosive 13mm gyrojet rocket. Has an incredibly weak payload, but its still explosive.",
+    "weight": "9 g",
+    "volume": "250 ml",
+    "price": 220,
+    "price_postapoc": 2800,
+    "material": [ "brass" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "13mm_gyro",
+    "casing": "13mm_gyro_casing",
+    "range": 24,
+    "damage": 20,
+    "pierce": 4,
+    "dispersion": 5,
+    "recoil": 60,
+	"effects": [ "EXPLOSIVE_SMALL" ]
+  }
+]

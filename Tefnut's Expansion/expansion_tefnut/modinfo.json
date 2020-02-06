@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "expansion_tefnut",
+    "name": "Tefnut's Expansion",
+    "authors": [ "Tefnut" ],
+    "maintainers": [ "Tefnut" ],
+    "description": "A mod aiming to expand on almost every aspect of a survivors life.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

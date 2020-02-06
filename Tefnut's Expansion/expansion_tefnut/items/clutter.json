@@ -1,0 +1,16 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_miia",
+    "symbol": "[",
+    "color": "red",
+    "name": "overly long body pillow",
+    "description": "A massive pillow with a print of an anime snake lady on the front and their scantily clad version on the back.",
+    "price": 1500,
+    "material": [ "cotton" ],
+    "weight": "2074 g",
+    "volume": "125000 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  }
+]

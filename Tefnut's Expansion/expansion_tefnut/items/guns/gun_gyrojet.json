@@ -1,0 +1,67 @@
+[
+  {
+    "id": "gyro_pistol",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": "MBA Gyrojet",
+    "name_plural": "MBA Gyrojet",
+    "description": "A product of cold war creativity, the MBA gyrojet was a commercial failure. Original models like this were a collector's item pre-cataclysm.",
+    "weight": "820 g",
+    "volume": "500 ml",
+    "price": 75000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "13mm_gyro",
+    "skill": "pistol",
+    "dispersion": 680,
+    "durability": 3,
+    "min_cycle_recoil": 504,
+    "valid_mod_locations": [
+      [ "grip", 1 ],
+      [ "sights", 1 ]
+    ],
+    "faults": [ "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "magazine_well": 1,
+    "magazines": [ [ "13mm_gyro", [ "13mm_gyro_mag" ] ] ]
+  },
+  
+  {
+    "id": "gyro_pistol_enhanced",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": "TAC Gyrojet",
+    "name_plural": "TAC Gyrojet",
+    "description": "Reworked from an old design, this baby is like an old gyrojet, but it actually works reliably.",
+    "weight": "820 g",
+    "volume": "500 ml",
+    "price": 75000,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "13mm_gyro",
+    "skill": "pistol",
+    "dispersion": 240,
+    "durability": 8,
+    "min_cycle_recoil": 504,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [ "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "magazine_well": 1,
+    "magazines": [ [ "13mm_gyro", [ "13mm_gyro_mag" ] ] ]
+  }
+]

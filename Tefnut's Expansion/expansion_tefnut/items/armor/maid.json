@@ -1,0 +1,27 @@
+[
+  {
+    "id": "maid_dress_miniskirt",
+    "repairs_like": "trenchcoat",
+    "type": "ARMOR",
+    "name": "Cosplay maid clothes",
+    "name_plural": "French maid clothes",
+    "description": "A cosplay-based maid dress, black with a frilly white apron and miniskirt.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": 5000,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "dress",
+    "color": "black",
+    "covers": [ "TORSO", "ARMS", "LEGS" ],
+    "coverage": 70,
+    "encumbrance": 7,
+    "storage": "500 ml",
+    "warmth": 5,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE", "FANCY" ]
+  }
+
+
+
+]
