@@ -136,8 +136,30 @@
     "type": "item_group",
     "id": "fast_food",
     "items": [
-      [ "chiliburger", 35 ]
+      [ "chiliburger", 35 ],
+	        [ "pizza_junk", 35 ],
+      [ "hotsauce", 45 ]
     ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "condiments",
+    "ammo": 75,
+    "magazine": 100,
+    "items": [
+
+      [ "hotsauce", 25 ]
+
+    ]
+  },
+
+
+  
+    {
+    "type": "item_group",
+    "id": "bed",
+    "items": [ [ "bodypillow_miia", 1 ] ]
   }
 
 ]

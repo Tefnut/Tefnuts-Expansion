@@ -1,0 +1,22 @@
+[
+{
+    "type": "COMESTIBLE",
+    "id": "pizza_junk",
+    "name": "fast-food pizza",
+    "weight": "230 g",
+    "color": "light_red",
+    "container": "box_small",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "calories": 566,
+    "description": "A pepperoni pizza from a fast food resturaunt. The crust has around the texture and taste of the box it came in, and its incredibly unhealthy, but its still delicious, and so far from food it could probably keep forever. ",
+    "price": 1090,
+    "material": [ "wheat", "flesh", "junk" ],
+    "volume": "1 L",
+    "charges": 8,
+	   "healthy": -3,
+    "flags": [ "EATEN_HOT" ],
+    "fun": 5,
+    "vitamins": [ [ "vitA", 3 ], [ "vitC", 10 ], [ "calcium", 28 ], [ "iron", 28 ] ]
+  }
+]
