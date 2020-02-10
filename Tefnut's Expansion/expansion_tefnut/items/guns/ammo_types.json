@@ -4,5 +4,12 @@
     "id": "13mm_gyro",
     "name": "13mm Gyrojet",
     "default": "13mm_gyro"
+  },
+  
+  {
+    "type": "ammunition_type",
+    "id": "950jdj",
+    "name": ".950 JDJ",
+    "default": "950jdj"
   }
 ]

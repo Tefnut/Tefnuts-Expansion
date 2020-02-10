@@ -145,6 +145,15 @@
     ]
   },
   
+  
+   {
+    "type": "item_group",
+    "id": "fridgesnacks",
+    "items": [
+      [ "crab_imitation", 20 ]
+    ]
+  },
+  
     {
     "type": "item_group",
     "id": "condiments",
@@ -157,12 +166,62 @@
     ]
   },
 
-
+  {
+    "type": "item_group",
+    "id": "guns_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifles.",
+    "items": [
+      { "item": "shoggoth_gun", "prob": 10, "charges-min": 0, "charges-max": 1  }
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "science",
+    "ammo": 50,
+    "magazine": 100,
+    "items": [
+      [ "gravity_gun", 1 ]
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "ammo_rifle_obscure",
+    "//": "Imported or otherwise very obscure rifle ammo.",
+    "items": [ [ "950jdj", 20 ] ]
+  },
   
     {
     "type": "item_group",
     "id": "bed",
     "items": [ [ "bodypillow_miia", 1 ] ]
+  },
+  
+  
+    {
+    "type": "item_group",
+    "id": "mut_lab",
+    "ammo": 50,
+    "magazine": 100,
+    "items": [
+      [ "iv_mutagen_kitsune", 2 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mutagens",
+    "items": [
+      [ "iv_mutagen_kitsune", 2 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "mut_iv",
+    "items": [
+      [ "iv_mutagen_kitsune", 2 ]
+
+    ]
   }
 
 ]

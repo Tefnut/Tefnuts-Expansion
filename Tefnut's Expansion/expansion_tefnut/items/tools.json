@@ -1,0 +1,19 @@
+[
+  {
+    "id": "gravity_gun",
+    "type": "TOOL",
+    "name": "gravity gun",
+    "description": "A mysterious gun-shaped machine, this allows you to lift heavy vehicles with basically no limits.",
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_blue",
+    "weight": "5000 g",
+    "volume": "1500 ml",
+    "price": 18000,
+    "bashing": 8,
+    "to_hit": -2,
+    "qualities": [ [ "LIFT", 400 ], [ "JACK", 400 ] ]
+  }
+
+
+]
