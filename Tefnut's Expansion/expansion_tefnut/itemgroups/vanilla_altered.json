@@ -138,6 +138,9 @@
     "items": [
       [ "chiliburger", 35 ],
 	        [ "pizza_junk", 35 ],
+			[ "fastfood_burrito", 35 ],
+			[ "fastfood_taco", 35 ],
+			[ "fastfood_quesadilla", 35 ],
       [ "hotsauce", 45 ]
     ]
   },

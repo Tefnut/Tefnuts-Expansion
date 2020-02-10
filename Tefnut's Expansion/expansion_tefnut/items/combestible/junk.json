@@ -9,7 +9,7 @@
     "comestible_type": "FOOD",
     "symbol": "%",
     "calories": 566,
-    "description": "A pepperoni pizza from a fast food resturaunt. The crust has around the texture and taste of the box it came in, and its incredibly unhealthy, but its still delicious, and so far from food it could probably keep forever. ",
+    "description": "A pepperoni pizza from a fast food resturaunt. The crust has around the texture and taste of the box it came in, and it's incredibly unhealthy, but it's still delicious, and so far from food it could probably keep forever. ",
     "price": 1090,
     "material": [ "wheat", "flesh", "junk" ],
     "volume": "1 L",
@@ -18,5 +18,70 @@
     "flags": [ "EATEN_HOT" ],
     "fun": 5,
     "vitamins": [ [ "vitA", 3 ], [ "vitC", 10 ], [ "calcium", 28 ], [ "iron", 28 ] ]
+  },
+  
+    {
+    "type": "COMESTIBLE",
+    "id": "fastfood_burrito",
+    "name": "fast food burrito",
+    "weight": "142 g",
+    "color": "brown",
+    "container": "wrapper",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -12,
+    "healthy": -4,
+    "calories": 434,
+    "description": "A small bean and cheese burrito like you would order at a fast food place. Delicious and long-lasting, but god bless your bowels.",
+    "price": 200,
+    "material": [ "bean", "junk", "milk" ],
+    "primary_material": "processed_food",
+    "volume": "250 ml",
+    "flags": [ "EATEN_HOT" ],
+    "fun": 3
+  },
+  
+    {
+    "type": "COMESTIBLE",
+    "id": "fastfood_taco",
+    "name": "fast food taco",
+    "weight": "142 g",
+    "color": "brown",
+    "container": "wrapper",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -12,
+    "healthy": -4,
+    "calories": 434,
+    "description": "A delicious crunchy taco youd order at a fast food place. Loaded with preservatives, to keep freshness.",
+    "price": 200,
+    "material": [ "flesh", "junk", "milk" ],
+    "primary_material": "processed_food",
+    "volume": "250 ml",
+    "flags": [ "EATEN_HOT" ],
+    "fun": 5
+  },
+  
+    {
+    "type": "COMESTIBLE",
+    "id": "fastfood_quesadilla",
+    "name": "fast food quesadilla",
+    "weight": "142 g",
+    "color": "brown",
+    "container": "wrapper",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": -12,
+    "healthy": -2,
+    "calories": 434,
+    "description": "A delicious processed quesadilla full of delicious processed cheese.",
+    "price": 200,
+    "material": [ "junk", "milk" ],
+    "primary_material": "processed_food",
+    "volume": "250 ml",
+    "flags": [ "EATEN_HOT" ],
+    "fun": 1
   }
+  
+  
 ]
