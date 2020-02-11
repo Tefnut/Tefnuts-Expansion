@@ -12,5 +12,84 @@
     "volume": "125000 ml",
     "flags": [ "SLEEP_AID" ],
     "category": "other"
+  },
+  
+    {
+    "type": "GENERIC",
+    "id": "bodypillow_kanna",
+    "symbol": "[",
+    "color": "white",
+    "name": "dragon girl body pillow",
+    "description": "A big, body-sized pillow with a print of a small anime dragon girl on the front, and the same harpy but nude on the back. If this was pre-cataclysm, you could hear the police coming.",
+    "price": 1500,
+    "material": [ "cotton" ],
+    "weight": "774 g",
+    "volume": "1250 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_papi",
+    "symbol": "[",
+    "color": "blue",
+    "name": "harpy body pillow",
+    "description": "A big, body-sized pillow with a print of an anime bird girl on the front, and the same harpy but nude on the back.",
+    "price": 1500,
+    "material": [ "cotton" ],
+    "weight": "774 g",
+    "volume": "1500 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+  {
+    "type": "GENERIC",
+    "id": "bodypillow_mero",
+    "symbol": "[",
+    "color": "pink",
+    "name": "mermaid body pillow",
+    "description": "A big, body-sized pillow with a print of an anime fish girl on the front, and the same mermaid but nude on the back.",
+    "price": 1500,
+    "material": [ "cotton" ],
+    "weight": "774 g",
+    "volume": "1750 ml",
+    "flags": [ "SLEEP_AID" ],
+    "category": "other"
+  },
+  
+    {
+    "id": "astolfo_bean",
+    "type": "TOOL",
+    "name": "Bean Plushie",
+    "description": "This is a talking plushie, round and plump. Its soft, but something feels wrong here.",
+    "weight": "907 g",
+    "volume": "750 ml",
+    "price": 2000,
+    "to_hit": -1,
+    "material": "cotton",
+    "symbol": "|",
+    "color": "pink",
+    "ammo": "battery",
+    "charges_per_use": 1,
+    "turns_per_charge": 20,
+    "use_action": "DOLLCHAT",
+	"flags": [ "SLEEP_AID" ],
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_disposable_cell",
+          "light_disposable_cell",
+          "light_minus_battery_cell",
+          "light_battery_cell",
+          "light_plus_battery_cell",
+          "light_atomic_battery_cell",
+          "light_minus_atomic_battery_cell"
+        ]
+      ]
+    ],
+    "magazine_well": 1
   }
 ]

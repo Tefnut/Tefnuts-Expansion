@@ -195,7 +195,10 @@
     {
     "type": "item_group",
     "id": "bed",
-    "items": [ [ "bodypillow_miia", 1 ] ]
+    "items": [ [ "bodypillow_miia", 1 ],
+               [ "bodypillow_papi", 1 ],
+			   [ "bodypillow_kanna", 1 ],
+               [ "astolfo_bean", 1 ]			   ]
   },
   
   
