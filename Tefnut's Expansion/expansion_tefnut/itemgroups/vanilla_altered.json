@@ -189,7 +189,9 @@
     "type": "item_group",
     "id": "ammo_rifle_obscure",
     "//": "Imported or otherwise very obscure rifle ammo.",
-    "items": [ [ "950jdj", 20 ] ]
+    "items": [ [ "950jdj", 20 ],
+	           [ "950_silver", 10 ],
+               [ "950_overkill", 5 ] 	]
   },
   
     {
