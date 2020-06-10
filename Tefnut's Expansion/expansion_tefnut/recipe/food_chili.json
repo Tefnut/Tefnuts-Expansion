@@ -1,7 +1,7 @@
 [
   {
     "type": "recipe",
-    "result": "cheeseburger",
+    "result": "chiliburger",
     "category": "CC_FOOD",
     "subcategory": "CSC_FOOD_MEAT",
     "skill_used": "cooking",

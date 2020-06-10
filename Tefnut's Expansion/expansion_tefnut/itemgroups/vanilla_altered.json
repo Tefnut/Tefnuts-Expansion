@@ -103,7 +103,7 @@
     "//": "Less common pistol ammo including that only used by police/paramilitary forces.",
     "items": [
       [ "13mm_gyro", 15 ],
-	  [ "13mm_gyro_explosive", 15 ]
+	  [ "13mm_gyro_explosive", 10 ]
     ]
   },
   
@@ -137,11 +137,12 @@
     "id": "fast_food",
     "items": [
       [ "chiliburger", 35 ],
-	        [ "pizza_junk", 35 ],
-			[ "fastfood_burrito", 35 ],
-			[ "fastfood_taco", 35 ],
-			[ "fastfood_quesadilla", 35 ],
-      [ "hotsauce", 45 ]
+	  [ "pizza_junk", 35 ],
+	  [ "fastfood_burrito", 35 ],
+	  [ "fastfood_taco", 35 ],
+	  [ "fastfood_quesadilla", 35 ],
+      [ "hotsauce", 45 ],
+	  [ "crab_imitation", 20 ]
     ]
   },
   
@@ -171,7 +172,7 @@
     "id": "guns_rifle_obscure",
     "//": "Imported or otherwise very obscure rifles.",
     "items": [
-      { "item": "shoggoth_gun", "prob": 10, "charges-min": 0, "charges-max": 1  }
+      { "item": "shoggoth_gun", "prob": 1, "charges-min": 0, "charges-max": 1  }
     ]
   },
   
