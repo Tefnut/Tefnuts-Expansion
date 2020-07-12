@@ -26,5 +26,39 @@
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
+  },
+  
+  
+  
+   {
+    "type": "profession",
+    "ident": "senator_bionic",
+    "name": "Bionic Senator",
+    "description": "You were a senator from colorado before the cataclysm. A badass one, at that. You had a dream, that one day, every person in this nation would control their OWN destiny. A land of the TRULY free, a nation of ACTION, not words, ruled by STRENGTH, not committee! If you survive the cataclysm, the rules of nature might now allow for this.",
+    "points": 8,
+    "skills": [ { "level": 4, "name": "melee" }, { "level": 6, "name": "speech" }, { "level": 10, "name": "unarmed" }  ],
+    "traits": [ "LIAR" ],
+	"CBMs": [ "bio_armor_eyes", "bio_armor_head", "bio_armor_torso", "bio_armor_legs", "bio_armor_arms", "bio_nanobots", "bio_metabolics", "bio_power_storage_mkII" ],
+    "items": {
+      "both": [
+        "suit",
+        "tieclip",
+        "socks_wool",
+        "dress_shoes",
+        "smart_phone",
+        "gold_watch",
+        "briefcase",
+        "tie_skinny",
+        "file",
+        "ref_lighter",
+        "cigar"
+      ],
+      "male": [ "boxer_shorts" ],
+      "female": [ "bra", "panties" ]
+    }
   }
+  
+  
+  
+  
 ]

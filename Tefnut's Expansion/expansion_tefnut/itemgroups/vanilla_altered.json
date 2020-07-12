@@ -107,12 +107,52 @@
     ]
   },
   
+  
+    {
+    "type": "item_group",
+    "id": "guns_rifle_rare",
+    "//": "Less common rifles including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "51_gyro_rifle", "prob": 35, "charges-min": 0, "charges-max": 30 },
+	  { "item": "boys_antitank", "prob": 35, "charges-min": 0, "charges-max": 5 }
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "mags_rifle_rare",
+    "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
+    "items": [
+      [ "51_gyro_mag_10", 15 ],
+	  [ "51_gyro_mag_30", 10 ],
+	  [ "belt_51_gyro", 5 ],
+	  [ "boysmag", 15 ]
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "ammo_pistol_rare",
+    "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
+    "items": [
+      [ "51_gyro", 15 ],
+	  [ "51_gyro_explosive", 10 ],
+	  [ "51_gyro_high", 5 ],
+	  [ "55_boys_mk1", 15 ],
+	  [ "55_boys_mk1_tracer", 5 ],
+	  [ "55_boys_mk2", 10 ],
+	  [ "55_boys_APCR", 5 ]
+    ]
+  },
+  
     {
     "type": "item_group",
     "id": "cannedfood",
     "items": [
       [ "chili_canned", 40 ],
-      [ "chili_canned_nobeans", 40 ]
+      [ "chili_canned_nobeans", 40 ],
+	  [ "beans_refried", 40 ],
+	  [ "can_cocktail", 40 ]
 
     ]
   },
@@ -121,7 +161,9 @@
     "type": "item_group",
     "id": "fridgesnacks",
     "items": [
-      [ "chiliburger", 8 ]
+      [ "chiliburger", 8 ],
+	  [ "crab_imitation", 20 ],
+	  [ "citrusrush", 10 ]
     ]
   },
 
@@ -147,13 +189,6 @@
   },
   
   
-   {
-    "type": "item_group",
-    "id": "fridgesnacks",
-    "items": [
-      [ "crab_imitation", 20 ]
-    ]
-  },
   
     {
     "type": "item_group",
@@ -192,7 +227,7 @@
     "//": "Imported or otherwise very obscure rifle ammo.",
     "items": [ [ "950jdj", 20 ],
 	           [ "950_silver", 10 ],
-               [ "950_overkill", 5 ] 	]
+               [ "950_overkill", 5 ]		   ]
   },
   
     {

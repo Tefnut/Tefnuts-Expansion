@@ -81,6 +81,55 @@
     "volume": "250 ml",
     "flags": [ "EATEN_HOT" ],
     "fun": 1
+  },
+  
+    {
+    "type": "COMESTIBLE",
+    "id": "can_cocktail",
+    "name": { "str_sp": "fruit cocktail" },
+    "weight": "277 g",
+    "color": "yellow",
+    "spoils_in": "1 day 6 hours",
+    "container": "can_food",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "quench": 6,
+    "calories": 280,
+	    "healthy": -1,
+    "description": "Peach, pear, and pineapple chunks, mixed with grapes and cherries in a sweet, sugary syrup. Not as healthy as raw fruit, but certainly delicious.",
+    "price": 140,
+    "price_postapoc": 150,
+    "material": [ "junk", "fruit" ],
+    "volume": "250 ml",
+    "fun": 8,
+    "vitamins": [ [ "vitA", 4 ], [ "vitC", 9 ], [ "iron", 4 ] ]
+  },
+  
+    {
+    "type": "COMESTIBLE",
+    "id": "citrusrush",
+    "name": "citrus soda",
+    "weight": "234 g",
+    "color": "light_green",
+    "addiction_type": "caffeine",
+    "fatigue_mod": 24,
+    "stim": 8,
+    "container": "can_drink",
+    "comestible_type": "DRINK",
+    "symbol": "~",
+    "quench": 14,
+    "healthy": -2,
+    "addiction_potential": 2,
+    "calories": 115,
+    "description": "An even more caffinated, even more sugary brand of energy cola. Its very close to legally being an energy drink, being the in-between.",
+    "price": 100,
+    "price_postapoc": 50,
+    "material": "junk",
+    "primary_material": "water",
+    "volume": "250 ml",
+    "phase": "liquid",
+    "flags": [ "EATEN_COLD" ],
+    "fun": 5
   }
   
   

@@ -1,0 +1,31 @@
+[
+  {
+    "id": "mounted_51_gyro_rifle",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted TAC GJAR-51" },
+    "item": "51_gyro_rifle",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 6 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 2 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ], [ "rifle", 3 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ] }
+    }
+  },
+  
+    {
+    "id": "mounted_55_boys_antitank",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted Boys Anti-Tank Rifle" },
+    "item": "boys_antitank",
+    "color": "magenta",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 6 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 2 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ], [ "rifle", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ] }
+    }
+  }
+]

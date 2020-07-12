@@ -24,6 +24,29 @@
   
       {
     "type": "COMESTIBLE",
+    "id": "beans_refried",
+    "name": "refried beans",
+    "name_plural": "refried beans",
+    "weight": "253 g",
+    "color": "red",
+    "spoils_in": "3 days",
+    "container": "can_medium",
+    "comestible_type": "FOOD",
+    "symbol": "%",
+    "healthy": 0,
+    "calories": 299,
+    "description": "Canned refried bean-paste; Great as a dip, in burritos, or even on its own. Incredibly filling.",
+    "price": 290,
+    "material": [ "bean" ],
+    "volume": "500 ml",
+    "flags": [ "EATEN_HOT" ],
+    "fun": 1,
+    "charges": 6,
+    "vitamins": [ [ "vitA", 14 ], [ "vitC", 7 ], [ "calcium", 6 ], [ "iron", 27 ] ]
+  },
+  
+        {
+    "type": "COMESTIBLE",
     "id": "chili_canned_nobeans",
     "name": "beanless canned chili",
     "name_plural": "beanless canned chili",
@@ -51,7 +74,7 @@
     "name": "chili burger",
     "conditional_names": [
       { "type": "FLAG", "condition": "CANNIBALISM", "name": { "str": "chump %s", "str_pl": "chump %s" } },
-      { "type": "COMPONENT_ID", "condition": "mutant", "name": { "str": "chilling %s", "str_pl": "chilling %s" } }
+      { "type": "COMPONENT_ID", "condition": "mutant", "name": { "str": "chilling burger", "str_pl": "chilling burgers" } }
     ],
     "weight": "133 g",
     "color": "brown",

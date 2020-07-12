@@ -1,0 +1,20 @@
+[
+  {
+    "name": "GROUP_STRAY_DOGS",
+    "type": "monstergroup",
+    "default": "mon_dog",
+    "monsters": [
+      { "monster": "mon_dog_pug", "freq": 50, "cost_multiplier": 0 },
+      { "monster": "mon_dog_pug_pup", "freq": 5, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "name": "GROUP_PETS",
+    "type": "monstergroup",
+    "default": "mon_dog",
+    "monsters": [
+      { "monster": "mon_dog_pug", "freq": 50, "cost_multiplier": 0 },
+      { "monster": "mon_dog_pug_pup", "freq": 5, "cost_multiplier": 0 }
+    ]
+  }
+]
