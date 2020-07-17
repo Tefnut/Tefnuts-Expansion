@@ -1,0 +1,99 @@
+[
+    {
+    "type": "item_group",
+    "id": "guns_pistol_ww2",
+    "items": [
+      { "item": "type_26_revolver", "prob": 50, "charges-min": 0, "charges-max": 6 },
+	  { "item": "nambu_14", "prob": 50, "charges-min": 0, "charges-max": 8 },
+	  { "item": "type2", "prob": 5, "charges-min": 0, "charges-max": 30 }
+	 ]
+  },
+  
+      {
+    "type": "item_group",
+    "id": "ammo_pistol_ww2",
+    "items": [
+      { "item": "9x22mmR", "prob": 50},
+	  { "item": "8x22mm_fmj", "prob": 50 },
+	  { "item": "8x22mm_jhp", "prob": 50 },
+	  { "item": "8x22mm_p", "prob": 5 }
+	 ]
+  },
+  
+        {
+    "type": "item_group",
+    "id": "mags_pistol_ww2",
+    "items": [
+      { "item": "nambumag", "prob": 50},
+	  { "item": "type2mag", "prob": 5 },
+	  { "item": "type2extmag", "prob": 1 }
+	 ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "guns_smg_ww2",
+    "items": [
+      { "item": "type100", "prob": 50, "charges-min": 0, "charges-max": 30 }
+	 ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "mags_smg_ww2",
+    "items": [
+      { "item": "type100mag", "prob": 50}
+	 ]
+  },
+  
+  
+      {
+    "type": "item_group",
+    "id": "guns_rifle_ww2",
+    "items": [
+      { "item": "type30", "prob": 75, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type30_carbine", "prob": 75, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type38", "prob": 50, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type38_carbine", "prob": 50, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type1_tera", "prob": 5, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type97", "prob": 50, "charges-min": 0, "charges-max": 5 },
+	  
+	  { "item": "type96", "prob": 25, "charges-min": 0, "charges-max": 30 },
+	  { "item": "type3", "prob": 25, "charges-min": 0, "charges-max": 500 },
+	  
+	  { "item": "type99", "prob": 25, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type99_carbine", "prob": 25, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type99_sniper", "prob": 25, "charges-min": 0, "charges-max": 5 },
+	  
+	  { "item": "type99_lmg", "prob": 10, "charges-min": 0, "charges-max": 5 },
+	  { "item": "type92", "prob": 10, "charges-min": 0, "charges-max": 5 }
+	 ]
+  },
+  
+        {
+    "type": "item_group",
+    "id": "ammo_rifle_ww2",
+    "items": [
+      { "item": "6x50mm", "prob": 50},
+	  { "item": "6x50mm_round", "prob": 25 },
+	  { "item": "6x50mm_genso", "prob": 5 },
+	  
+	  { "item": "7x58mm", "prob": 50 },
+	  { "item": "7x58mm_ap", "prob": 35 },
+	  { "item": "7x58mm_tracer", "prob": 25 },
+	  { "item": "7x58mm_explosive", "prob": 5 }
+	 ]
+  },
+  
+        {
+    "type": "item_group",
+    "id": "mags_rifle_ww2",
+    "items": [
+      { "item": "type96mag", "prob": 50},
+	  { "item": "belt6x50mm", "prob": 10 },
+	  
+	  { "item": "type99mag", "prob": 25 },
+	  { "item": "belt7x58mm", "prob": 5 }
+	 ]
+  }
+]

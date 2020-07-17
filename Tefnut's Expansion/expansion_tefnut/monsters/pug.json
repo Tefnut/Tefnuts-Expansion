@@ -3,7 +3,7 @@
     "id": "mon_dog_pug",
     "copy-from": "mon_dog",
     "type": "MONSTER",
-    "name": { "str": "Chihuahua" },
+    "name": { "str": "Pug" },
     "description": "It's a pug! Bred by the chinese to be royalty, you have no idea how this poor, deformed dog survived the cataclysm. It could be a good companion, but not good for anything else.",
     "volume": "750 ml",
     "weight": "2200 g",
