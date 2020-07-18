@@ -22,9 +22,44 @@
   
     {
     "type": "item_group",
+    "id": "book_gunref",
+    "//": "Reference books about guns",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "recipe_bullets_japan", "prob": 40 }
+    ]
+  },
+  
+  
+    {
+    "type": "item_group",
+    "id": "book_military",
+    "//": "Military combat manuals and related books",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "recipe_bullets_japan", "prob": 40 }
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "textbooks_school",
+    "//": "Same as textbooks, but without inappropriate books, like weapons or traps. Contains archery and armors/melee weapons as sport and historical information sources.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "recipe_bullets_japan", "prob": 2 }
+    ]
+  },
+  
+  
+  
+  
+    {
+    "type": "item_group",
     "id": "pawn",
     "items": [
-      [ "maid_dress_cyberpunk", 3 ],
+      [ "recipe_bullets_japan", 3 ],
+	  [ "maid_dress_cyberpunk", 3 ],
       [ "maid_hat_cyberpunk", 3 ],
 	  [ "maid_boots_cyberpunk", 3 ],
 	  [ "maid_dress_victorian", 3 ],
@@ -160,7 +195,7 @@
   
     {
     "type": "item_group",
-    "id": "ammo_pistol_rare",
+    "id": "ammo_rifle_rare",
     "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
     "items": [
       [ "51_gyro", 15 ],

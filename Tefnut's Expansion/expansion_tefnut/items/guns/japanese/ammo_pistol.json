@@ -52,7 +52,7 @@
     "id": "8x22mm_jhp",
     "copy-from": "8x22mm_fmj",
     "type": "AMMO",
-    "name": { "str": "8x2mm ACP JHP" },
+    "name": { "str": "8x22 Nambu JHP" },
     "description": "8x22mm Nambu was a round used in the second world war by the Japanese. Comparable to .380, this rare ammo only slightly beats said caliber out. Rare for it's effectiveness, it might be safe to consider this round a novelty.",
     "relative": { "damage": { "damage_type": "stab", "amount": 2, "armor_penetration": -2 } }
   },

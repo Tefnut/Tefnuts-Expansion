@@ -38,6 +38,19 @@
 	 ]
   },
   
+  
+        {
+    "type": "item_group",
+    "id": "ammo_smg_ww2",
+    "items": [
+      { "item": "9x22mmR", "prob": 50},
+	  { "item": "8x22mm_fmj", "prob": 50 },
+	  { "item": "8x22mm_jhp", "prob": 50 },
+	  { "item": "8x22mm_p", "prob": 5 }
+	 ]
+  },
+  
+  
   {
     "type": "item_group",
     "id": "mags_smg_ww2",
