@@ -91,6 +91,38 @@
       "install": { "skills": [ [ "mechanics", 2 ], [ "rifle", 1 ] ] },
       "removal": { "skills": [ [ "mechanics", 1 ] ] }
     }
+  },
+  
+  
+  
+        {
+    "id": "mounted_m1919",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted M1919" },
+    "item": "m1919",
+    "color": "blue",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 6 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 2 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ], [ "rifle", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ] }
+    }
+  },
+  
+        {
+    "id": "mounted_m1941_johnny",
+    "copy-from": "turret",
+    "type": "vehicle_part",
+    "name": { "str": "mounted M1941 'Johnny Gun'" },
+    "item": "m1941_johnson",
+    "color": "blue",
+    "broken_color": "magenta",
+    "breaks_into": [ { "item": "scrap", "count": 6 }, { "item": "steel_chunk", "count": 5 }, { "item": "steel_lump", "count": 2 } ],
+    "requirements": {
+      "install": { "skills": [ [ "mechanics", 2 ], [ "rifle", 1 ] ] },
+      "removal": { "skills": [ [ "mechanics", 1 ] ] }
+    }
   }
   
   

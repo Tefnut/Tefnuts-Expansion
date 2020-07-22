@@ -97,14 +97,10 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "group": "cleaning", "prob": 40 },
-      { "group": "female_underwear", "prob": 90, "damage": [ 0, 4 ] },
-      { "group": "shoes_maid", "prob": 30, "damage": [ 0, 4 ] },
       { "item": "maid_hat", "prob": 50, "damage": [ 0, 4 ] },
       { "item": "maid_dress", "prob": 100, "damage": [ 0, 4 ] },
 	  { "item": "maid_hat_victorian", "prob": 50, "damage": [ 0, 4 ] },
-      { "item": "maid_dress_victorian", "prob": 100, "damage": [ 0, 4 ] },
-      { "group": "corpse_female" }
+      { "item": "maid_dress_victorian", "prob": 100, "damage": [ 0, 4 ] }
     ]
   },
   
@@ -215,7 +211,22 @@
       [ "chili_canned", 40 ],
       [ "chili_canned_nobeans", 40 ],
 	  [ "beans_refried", 40 ],
-	  [ "can_cocktail", 40 ]
+	  [ "can_cocktail", 40 ],
+	  [ "beefaroni", 40 ],
+	  [ "beefaroni_cheese", 20 ],
+	  [ "macaroni_can", 40 ],
+	  [ "can_beef", 30 ]
+
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "salty_snacks",
+    "items": [
+      [ "cheezits", 40 ],
+      [ "cheesepuffs", 40 ],
+	  [ "takis", 40 ]
 
     ]
   },
@@ -226,7 +237,11 @@
     "items": [
       [ "chiliburger", 8 ],
 	  [ "crab_imitation", 20 ],
-	  [ "citrusrush", 10 ]
+	  [ "citrusrush", 10 ],
+	  [ "kiwi_strawberry", 10 ],
+	  [ "pineapple_soda", 10 ],
+	  [ "cola_cocaine", 1 ],
+	  [ "jumpjuice", 1 ]
     ]
   },
 
@@ -299,6 +314,13 @@
     "items": [ [ "bodypillow_miia", 1 ],
                [ "bodypillow_papi", 1 ],
 			   [ "bodypillow_kanna", 1 ],
+			   [ "bodypillow_mero", 1 ],
+			   [ "bodypillow_megumin", 1 ],
+			   [ "bodypillow_aqua", 1 ],
+			   [ "bodypillow_michiru", 1 ],
+			   [ "bodypillow_browning", 1 ],
+			   [ "bodypillow_gwen", 1 ],
+			   [ "bodypillow_tefnut", 1 ],
                [ "astolfo_bean", 1 ]			   ]
   },
   
