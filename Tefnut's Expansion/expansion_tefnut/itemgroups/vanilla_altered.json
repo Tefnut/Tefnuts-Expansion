@@ -12,6 +12,9 @@
       [ "maid_hat_victorian", 3 ],
 	  [ "maid_dress_combat", 3 ],
 	  [ "maid_dress_steampunk", 3 ],
+	  [ "socks_programmer", 3 ],
+	  [ "fatigues_us", 1 ],
+	  [ "jacket_eisenhower", 1 ],
 	  [ "fatigues_ija", 1 ],
 	  [ "service_cap_ija", 1 ],
 	  [ "headband_hachimaki", 1 ],
@@ -66,6 +69,9 @@
       [ "maid_hat_victorian", 3 ],
 	  [ "maid_dress_combat", 3 ],
 	  [ "maid_dress_steampunk", 3 ],
+	  	  	  [ "fatigues_us", 1 ],
+		  [ "jacket_eisenhower", 1 ],
+		  [ "boots_jump", 1 ],
 	  [ "fatigues_ija", 1 ],
 	  [ "service_cap_ija", 1 ],
 	  [ "headband_hachimaki", 1 ],
@@ -85,6 +91,9 @@
       [ "maid_hat_victorian", 3 ],
 	  [ "maid_dress_combat", 3 ],
 	  [ "maid_dress_steampunk", 3 ],
+	  [ "socks_programmer", 5 ],
+	  [ "fatigues_us", 1 ],
+	  [ "jacket_eisenhower", 1 ],
 	  [ "fatigues_ija", 1 ],
 	  [ "service_cap_ija", 1 ],
 	  [ "headband_hachimaki", 1 ],
@@ -115,7 +124,8 @@
 	  [ "maid_dress_victorian", 3 ],
       [ "maid_hat_victorian", 3 ],
 	  [ "maid_dress_combat", 3 ],
-	  [ "maid_dress_steampunk", 3 ]
+	  [ "maid_dress_steampunk", 3 ],
+	  [ "socks_programmer", 5 ]
 
     ]
   },
@@ -173,11 +183,16 @@
     "//": "Less common rifles including those only used by police/paramilitary forces.",
     "items": [
       { "item": "51_gyro_rifle", "prob": 35, "charges-min": 0, "charges-max": 30 },
+	  { "item": "drehen_700", "prob": 35, "charges-min": 0, "charges-max": 3 },
+	  { "item": "drehen_308", "prob": 35, "charges-min": 0, "charges-max": 5 },
+	  { "item": "drehen_556", "prob": 35, "charges-min": 0, "charges-max": 9 },
+	  { "item": "drehen_50", "prob": 35, "charges-min": 0, "charges-max": 4 },
+	  { "item": "rifle_flintlock_tactical", "prob": 35, "charges-min": 0, "charges-max": 2 },
 	  { "item": "boys_antitank", "prob": 35, "charges-min": 0, "charges-max": 5 }
     ]
   },
   
-    {
+  {
     "type": "item_group",
     "id": "mags_rifle_rare",
     "//": "Aftermarket or otherwise uncommon rifle magazines excluding milspec.",
@@ -201,6 +216,32 @@
 	  [ "55_boys_mk1_tracer", 5 ],
 	  [ "55_boys_mk2", 10 ],
 	  [ "55_boys_APCR", 5 ]
+    ]
+  },
+  
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_rare",
+    "//": "Uncommon or rare shotguns in civilian possession.",
+    "subtype": "distribution",
+    "entries": [
+	  { "item": "drehen_12", "prob": 35, "charges-min": 0, "charges-max": 6 },
+	  { "item": "drehen_8", "prob": 35, "charges-min": 0, "charges-max": 5 }
+    ]
+  },
+  
+  
+  
+  {
+    "type": "item_group",
+    "id": "ammo_shotgun_rare",
+    "//": "Less common rifle ammo including that only used by police/paramilitary forces.",
+    "items": [
+      [ "8ga_00", 15 ],
+	  [ "8ga_dragon", 5 ],
+	  [ "8ga_flechette", 15 ],
+	  [ "8ga_he", 5 ],
+	  [ "8ga_slug", 15 ]
     ]
   },
   
@@ -311,7 +352,22 @@
     {
     "type": "item_group",
     "id": "bed",
-    "items": [ [ "bodypillow_miia", 1 ],
+    "items": [ 
+	           [ "pillow_throw", 8 ],
+			   [ "pillow_wool", 8 ],
+			   [ "cushion_seat", 8 ],
+			   [ "pillow_racecar", 1 ],
+			   
+			   [ "pillow", 18 ],
+			   [ "blanket", 18 ],
+			   
+			   [ "blanket_survivor", 1 ],
+			   [ "fur_blanket_survivor", 1 ],
+			   [ "snuggie_survivor", 1 ],
+			   
+			   [ "plushie_puffball", 1 ],
+			   
+	           [ "bodypillow_miia", 1 ],
                [ "bodypillow_papi", 1 ],
 			   [ "bodypillow_kanna", 1 ],
 			   [ "bodypillow_mero", 1 ],
@@ -319,8 +375,12 @@
 			   [ "bodypillow_aqua", 1 ],
 			   [ "bodypillow_michiru", 1 ],
 			   [ "bodypillow_browning", 1 ],
+			   [ "bodypillow_survivor", 1 ],
 			   [ "bodypillow_gwen", 1 ],
 			   [ "bodypillow_tefnut", 1 ],
+			   [ "bodypillow_panty", 1 ],
+			   [ "bodypillow_stocking", 1 ],
+			   [ "bodypillow_angeldust", 1 ],
                [ "astolfo_bean", 1 ]			   ]
   },
   
@@ -338,7 +398,7 @@
     "type": "item_group",
     "id": "mutagens",
     "items": [
-      [ "iv_mutagen_kitsune", 2 ]
+      [ "mutagen_kitsune", 2 ]
     ]
   },
   {
@@ -450,6 +510,68 @@
 	  { "item": "type99mag", "prob": 25 },
 	  { "item": "belt7x58mm", "prob": 5, "charges-min": 500, "charges-max": 500 }
 	 ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "farming_seeds",
+    "items": [
+      [ "seed_olive_bonsai", 6 ],
+      [ "seed_cactus_explosive", 1 ]
+    ]
+  },
+  
+  
+    {
+    "type": "item_group",
+    "id": "hydro",
+    "items": [
+      [ "seed_olive_bonsai", 2 ],
+      [ "seed_cactus_explosive", 1 ]
+    ]
+  },
+  
+  
+    {
+    "type": "item_group",
+    "id": "everyday_gear",
+    "items": [
+      [ "wrist_comp_bad", 50 ],
+      [ "wrist_comp_budget", 180 ]
+    ]
+  },
+  
+    {
+    "type": "item_group",
+    "id": "electronics",
+    "items": [
+      [ "wrist_comp_bad", 20 ],
+	  [ "wrist_comp_budget", 10 ]
+    ]
+  },
+  {
+    "type": "item_group",
+    "ammo": 25,
+    "magazine": 100,
+    "id": "consumer_electronics",
+    "items": [
+      [ "wrist_comp_bad", 50 ],
+	  [ "wrist_comp_budget", 25 ]
+    ]
+  },
+  
+  
+  
+    {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "phones",
+    "items": [
+      { "item": "wrist_comp_bad", "prob": 9, "charges-min": 0, "charges-max": 15 },
+      { "item": "wrist_comp_bad", "prob": 1, "charges-min": 50, "charges-max": 50 },
+      { "item": "wrist_comp_budget", "prob": 9, "charges-min": 0, "charges-max": 15 },
+      { "item": "wrist_comp_budget", "prob": 1, "charges-min": 130, "charges-max": 130 }
+    ]
   }
   
 ]

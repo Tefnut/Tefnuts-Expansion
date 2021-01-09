@@ -203,6 +203,9 @@
     "type": "item_group",
     "id": "uniform_ww2",
     "items": [
+	  { "item": "fatigues_us", "prob": 30},
+	  { "item": "jacket_eisenhower", "prob": 30},
+	  { "item": "boots_jump", "prob": 30},
       { "item": "fatigues_ija", "prob": 10},
 	  { "item": "service_cap_ija", "prob": 10},
 	  { "item": "headband_hachimaki", "prob": 10},

@@ -5,6 +5,7 @@
     "copy-from": "mutagen_flavor",
     "type": "COMESTIBLE",
     "name": "kitsune mutagen",
+	"description": "A special mutagen, red and sparkly.  Just watching it sparkle is oddly calming.",
     "use_action": { "type": "mutagen", "mutation_category": "KITSUNE" }
   },
   

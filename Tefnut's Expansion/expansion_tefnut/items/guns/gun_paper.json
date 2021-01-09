@@ -1,4 +1,48 @@
 [
+  {
+    "id": "rifle_flintlock_tactical",
+    "looks_like": "rifle_flintlock",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "tactical musket" },
+    "description": "A more modern musket, for a more civilized age. With over-under double barrels, and all the mod slots to be expected of a modern gun, combined with the easily crafted ammunition of a musket, it may just be your new best friend.",
+    "weight": "4900 g",
+    "volume": "2500 ml",
+    "price": 41000,
+    "price_postapoc": 2250,
+    "to_hit": -1,
+    "bashing": 15,
+    "material": [ "iron", "wood" ],
+    "symbol": "(",
+    "color": "brown",
+    "ammo": "flintlock",
+    "skill": "rifle",
+    "range": 9,
+    "ranged_damage": { "damage_type": "stab", "amount": 15 },
+	"modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
+    "dispersion": 120,
+    "durability": 6,
+    "blackpowder_tolerance": 96,
+    "clip_size": 2,
+    "reload": 1200,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "flags": [ "NEVER_JAMS", "DURABLE_MELEE" ]
+  },
+
+
+
 
   {
     "id": "rifle_flintlock_copper",

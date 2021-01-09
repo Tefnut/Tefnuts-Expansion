@@ -41,11 +41,20 @@
     "id": "belt3006",
     "copy-from": "magazine_belt",
     "type": "MAGAZINE",
-    "name": { "str": "3006 ammo belt" },
+    "name": { "str": ".30-06 ammo belt" },
     "ammo_type": "3006",
     "capacity": 500,
     "count": 100,
     "default_ammo": "3006",
-    "linkage": "ammolink308"
+    "linkage": "ammolink3006"
+  },
+  
+    
+    {
+    "id": "ammolink3006",
+    "copy-from": "ammolink",
+    "type": "GENERIC",
+    "name": { "str": ".30-06 ammo belt linkage" },
+    "use_action": { "type": "ammobelt", "belt": "belt3006" }
   }
 ]
