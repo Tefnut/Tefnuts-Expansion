@@ -10,7 +10,12 @@
     "time": "10 m",
     "autolearn": true,
     "using": [ [ "sewing_standard", 6 ] ],
-    "components": [ [ [ "rag", 8 ] ], [ [ "nomex", 4 ] ], [ [ "kevlar_plate", 4 ] ] ]
+    "components": [ [ [ "rag", 8 ] ], [ [ "nomex", 4 ] ], [ [ "kevlar_plate", 4 ] ] ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ]
   },
   
   
@@ -24,7 +29,12 @@
     "time": "10 m",
     "autolearn": true,
     "using": [ [ "sewing_standard", 6 ] ],
-    "components": [ [ [ "rag", 8 ] ], [ [ "nomex", 4 ] ], [ [ "kevlar_plate", 4 ] ] ]
+    "components": [ [ [ "rag", 8 ] ], [ [ "nomex", 4 ] ], [ [ "kevlar_plate", 4 ] ] ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ]
   },
 
 
@@ -39,7 +49,12 @@
     "autolearn": true,
     "book_learn": [ [ "mag_tailor", 1 ], [ "manual_tailor", 1 ] ],
     "using": [ [ "sewing_standard", 15 ] ],
-    "components": [ [ [ "rag", 2 ] ], [ [ "nomex", 1 ] ], [ [ "kevlar_plate", 1 ] ] ]
+    "components": [ [ [ "rag", 2 ] ], [ [ "nomex", 1 ] ], [ [ "kevlar_plate", 1 ] ] ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ]
   },
   
     {
@@ -52,7 +67,12 @@
     "time": "35 m",
     "autolearn": true,
     "using": [ [ "sewing_standard", 15 ] ],
-    "components": [ [ [ "kevlar_plate", 4 ] ], [ [ "rag", 2 ] ], [ [ "nomex", 1 ] ]  ]
+    "components": [ [ [ "kevlar_plate", 4 ] ], [ [ "rag", 2 ] ], [ [ "nomex", 1 ] ]  ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ]
   },
   
     {
@@ -71,6 +91,9 @@
       [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "kevlar_plate", 12 ] ],
       [ [ "rag", 14 ] ],
       [ [ "duct_tape", 100 ] ]
+    ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" }
     ]
   },
   
@@ -90,6 +113,11 @@
       [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "kevlar_plate", 12 ] ],
       [ [ "rag", 14 ] ],
       [ [ "duct_tape", 100 ] ]
+    ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
     ]
   },
   
@@ -110,6 +138,11 @@
       [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "kevlar_plate", 12 ] ],
       [ [ "rag", 14 ] ],
       [ [ "duct_tape", 100 ] ]
+    ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
     ]
   },
   
@@ -130,6 +163,9 @@
       [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "kevlar_plate", 12 ] ],
       [ [ "rag", 14 ] ],
       [ [ "duct_tape", 100 ] ]
+    ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" }
     ]
   },
   
@@ -149,6 +185,13 @@
       [ [ "kevlar", 1 ], [ "ballistic_vest_empty", 1 ], [ "kevlar_plate", 12 ] ],
       [ [ "rag", 14 ] ],
       [ [ "duct_tape", 100 ] ]
+    ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_leatherworking_basic" },
+      { "proficiency": "prof_leatherworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
     ]
   },
   
@@ -165,7 +208,12 @@
     "autolearn": true,
     "using": [ [ "sewing_standard", 40 ] ],
     "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
-    "components": [ [ [ "bootsheath", 1 ] ], [ [ "kevlar_plate", 4 ] ], [ [ "tophat", 1 ] ], [ [ "duct_tape", 100 ] ] ]
+    "components": [ [ [ "bootsheath", 1 ] ], [ [ "kevlar_plate", 4 ] ], [ [ "tophat", 1 ] ], [ [ "duct_tape", 100 ] ] ],
+	"proficiencies": [
+      { "proficiency": "prof_polymerworking" },
+      { "proficiency": "prof_closures" },
+      { "proficiency": "prof_closures_waterproofing" }
+    ]
   }
 
 ]
