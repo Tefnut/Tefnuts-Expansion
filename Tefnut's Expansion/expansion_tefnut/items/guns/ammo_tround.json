@@ -1,0 +1,48 @@
+[
+  {
+    "id": "38_tround_hull",
+    "copy-from": "casing",
+    "looks_like": "9mm_casing",
+    "type": "GENERIC",
+    "name": { "str": ".38 tround hull" },
+    "description": "An empty plastic hull from a .38 tround.",
+    "weight": "3 g",
+	"material": "plastic",
+    "symbol": "=",
+    "color": "green",
+    "volume": "4ml"
+  },
+  
+    {
+    "id": "38_tround",
+    "type": "AMMO",
+    "name": { "str": ".38 Tround" },
+    "description": ".38 Tround ammunition with 130gr FMJ bullets.  The .38 Tround was an experiment in the early 60s to try and minimize unused space in a gun's magazine. It saw a lot of production, but the guns that use it didn't. Even among Trounds, its long abandoned as not worth it, shelved in favor of the .22 and .44 Trounds.",
+    "weight": "8 g",
+    "volume": "250 ml",
+    "price": 210,
+    "price_postapoc": 800,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "plastic", "steel", "powder" ],
+    "symbol": "=",
+    "color": "yellow",
+    "count": 40,
+    "stack_size": 40,
+    "ammo_type": "38tround",
+    "casing": "38_tround_hull",
+    "range": 14,
+    "damage": { "damage_type": "bullet", "amount": 22 },
+    "dispersion": 30,
+    "recoil": 250,
+    "effects": [ "COOKOFF" ]
+  },
+  
+  {
+    "id": "38_tround_drill",
+    "copy-from": "38_tround",
+    "type": "AMMO",
+    "name": { "str": ".38 Terra Drill Tround" },
+    "description": ".38 Tround Terra Drill ammuniton. A strangely shaped (even for a tround) piece of ammunition that ends in a drill bit. This feels wrong in so many ways.",
+    "relative": { "damage": { "damage_type": "bullet", "amount": -2, "armor_penetration": 4 } }
+  }
+]

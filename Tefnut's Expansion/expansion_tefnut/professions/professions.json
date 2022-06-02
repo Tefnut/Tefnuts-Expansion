@@ -56,6 +56,35 @@
       "male": [ "boxer_shorts" ],
       "female": [ "bra", "panties" ]
     }
+  },
+  
+    {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "bandolier_fourchan_kommando",
+    "entries": [ { "item": "762_m43", "charges": 16 } ]
+  },
+  
+    {
+    "type": "profession",
+    "id": "fourchan_kommando",
+    "name": "/K/ommando",
+    "description": "'Hey /k/, look what i just found!'",
+    "points": 2,
+    "skills": [ { "level": 1, "name": "gun" }, { "level": 1, "name": "rifle" } ],
+    "items": {
+      "both": {
+        "items": [ "army_top", "knit_scarf", "socks", "boots_steel", "pants_cargo", "jacket_army", "hat_boonie", "wristwatch", "mininuke" ],
+        "entries": [
+          
+          { "item": "sks", "ammo-item": "762_m43", "charges": 10, "contents-item": "shoulder_strap" },
+          { "item": "bandolier_rifle", "contents-group": "bandolier_fourchan_kommando" },
+          { "item": "sheath", "contents-item": "knife_rambo" }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
   }
   
   

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "bio_stroheim_gun",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Chest-Mounted Machine Gun CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A concealed, STANAG-or Belt-fed, .223 machine gun you install into your chest.",
+    "price": 220000,
+    "difficulty": 8
+  },
+
+
+  {
+    "id": "bio_stroheim_light",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Shoulder-Mounted Floodlights" },
+    "looks_like": "bio_int_enhancer",
+    "description": "An extremely powerful pair of floodlights mounted on your arms, that mimic the rays of the sun itself.",
+    "price": 20000,
+    "weight": "250 g",
+    "difficulty": 2
+  },
+  
+    {
+    "id": "bio_stroheim_gun_active",
+    "copy-from": "rifle_auto",
+    "looks_like": "m249",
+    "type": "GUN",
+    "name": { "str": "Chest-mounted machine gun" },
+    "description": "This marvel of german science fires .223 and 5.56 rounds at incredibly high speeds. Pelvic thrusts optional.",
+    "weight": "7330 g",
+    "volume": "3 L",
+    "price": 750000,
+    "price_postapoc": 8000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "223",
+    "dispersion": 400,
+    "durability": 10,
+    "min_cycle_recoil": 1350,
+    "reload": 400,
+    "modes": [ [ "DEFAULT", "burst", 6 ] ],
+
+    "flags": [ "NEVER_JAMS", "NO_UNWIELD", "TRADER_AVOID" ],
+
+    "magazines": [
+      [
+        "223",
+        [
+          "belt223",
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  }
+]

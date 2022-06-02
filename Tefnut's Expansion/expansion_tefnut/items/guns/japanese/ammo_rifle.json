@@ -17,7 +17,7 @@
     "ammo_type": "6x50mm",
     "casing": "6x50mm_casing",
     "range": 61,
-    "damage": { "damage_type": "stab", "amount": 50, "armor_penetration": 8 },
+    "damage": { "damage_type": "bullet", "amount": 50, "armor_penetration": 8 },
     "dispersion": 20,
     "recoil": 3200,
     "effects": [ "COOKOFF" ]
@@ -41,7 +41,7 @@
     "ammo_type": "6x50mm",
     "casing": "6x50mm_casing",
     "range": 61,
-    "damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 4 },
+    "damage": { "damage_type": "bullet", "amount": 30, "armor_penetration": 4 },
     "dispersion": 20,
     "recoil": 3200,
     "effects": [ "COOKOFF" ]
@@ -51,7 +51,7 @@
     "id": "6x50mm_genso",
     "type": "AMMO",
     "name": { "str": "6.5x50mm Arisaka Genso" },
-    "description": "6.5x50mm Arisaka ammunition, used in a variety of imperial japanese firearms. This is the comparatively new spitzer ammunition, as opposed to the older round-nosed cupronickel versions This means it has decent penetrationm, though still slightly below a .30-06 round. The Genso round has a slightly lower powder load, meant to reduce the excessive muzzle flash from shorter barreled rifles, and generally be a better stealth round.",
+    "description": "6.5x50mm Arisaka ammunition, used in a variety of imperial japanese firearms. This is the comparatively new spitzer ammunition, as opposed to the older round-nosed cupronickel versions. This means it has decent penetrationm, though still slightly below a .30-06 round. The Genso round has a slightly lower powder load, meant to reduce the excessive muzzle flash from shorter barreled rifles, and generally be a better stealth round.",
     "weight": "20 g",
     "volume": "250 ml",
     "price": 160,
@@ -65,7 +65,7 @@
     "ammo_type": "6x50mm",
     "casing": "6x50mm_casing",
     "range": 61,
-    "damage": { "damage_type": "stab", "amount": 40, "armor_penetration": 8 },
+    "damage": { "damage_type": "bullet", "amount": 40, "armor_penetration": 8 },
     "dispersion": 20,
     "recoil": 2800,
     "effects": [ "COOKOFF" ]
@@ -90,7 +90,7 @@
     "ammo_type": "7x58mm",
     "casing": "7x58mm_casing",
     "range": 75,
-    "damage": { "damage_type": "stab", "amount": 58, "armor_penetration": 10 },
+    "damage": { "damage_type": "bullet", "amount": 58, "armor_penetration": 10 },
     "dispersion": 15,
     "recoil": 2650,
     "effects": [ "COOKOFF" ]
@@ -114,7 +114,7 @@
     "ammo_type": "7x58mm",
     "casing": "7x58mm_casing",
     "range": 75,
-    "damage": { "damage_type": "stab", "amount": 58, "armor_penetration": 12 },
+    "damage": { "damage_type": "bullet", "amount": 58, "armor_penetration": 12 },
     "dispersion": 15,
     "recoil": 2650,
     "effects": [ "COOKOFF" ]
@@ -138,7 +138,7 @@
     "ammo_type": "7x58mm",
     "casing": "7x58mm_casing",
     "range": 75,
-    "damage": { "damage_type": "stab", "amount": 58, "armor_penetration": 10 },
+    "damage": { "damage_type": "bullet", "amount": 58, "armor_penetration": 10 },
     "dispersion": 31,
     "recoil": 2650,
     "effects": [ "COOKOFF", "INCENDIARY" ]
@@ -162,10 +162,10 @@
     "ammo_type": "7x58mm",
     "casing": "7x58mm_casing",
     "range": 75,
-    "damage": { "damage_type": "stab", "amount": 58, "armor_penetration": 10 },
+    "damage": { "damage_type": "bullet", "amount": 58, "armor_penetration": 10 },
     "dispersion": 15,
     "recoil": 2650,
-    "effects": [ "COOKOFF", "EXPLOSIVE_RAUFOSS" ]
+    "effects": [ "COOKOFF", "EXPLOSIVE" ]
   }
 
   

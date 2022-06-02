@@ -16,8 +16,7 @@
     "ammo_type": "950jdj",
     "casing": "950jdj_casing",
     "range": 52,
-    "damage": 450,
-    "pierce": 40,
+    "damage": { "damage_type": "bullet", "amount": 450, "armor_penetration": 45 },
     "dispersion": 15,
     "recoil": 17100,
     "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
@@ -40,8 +39,7 @@
     "ammo_type": "950jdj",
     "casing": "950jdj_casing",
     "range": 52,
-    "damage": 450,
-    "pierce": 20,
+    "damage": { "damage_type": "bullet", "amount": 500, "armor_penetration": 0 },
     "dispersion": 15,
     "recoil": 17100,
     "effects": [ "COOKOFF" ]
@@ -64,8 +62,7 @@
     "ammo_type": "950jdj",
     "casing": "950jdj_casing",
     "range": 56,
-    "damage": 900,
-    "pierce": 45,
+    "damage": { "damage_type": "bullet", "amount": 900, "armor_penetration": 50 },
     "dispersion": 15,
     "recoil": 17100,
     "effects": [ "COOKOFF", "RECYCLED" ]

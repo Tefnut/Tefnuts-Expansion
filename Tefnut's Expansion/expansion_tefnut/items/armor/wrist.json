@@ -9,7 +9,7 @@
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "hand_either" ],
     "price": 6000,
     "price_postapoc": 100,
     "material": [ "plastic_trans" ],
@@ -53,7 +53,7 @@
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
-    "covers": [ "HAND_EITHER" ],
+    "covers": [ "hand_either" ],
 	    "initial_charges": 500,
     "max_charges": 600,
     "charges_per_use": 1,
@@ -110,6 +110,75 @@
     }
 	],
     "flags": [ "WATCH", "WATER_FRIENDLY", "BELTED", "STURDY", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "LIGHT_20", "CHARGEDIM", "TRADER_AVOID", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "THERMOMETER", "FANCY" ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      {
+    "type": "TOOL_ARMOR",
+    "id": "wrist_comp_atomic",
+    "name": { "str": "atomic wrist computer", "str_pl": "atomic wrist computers" },
+    "category": "clothing",
+    "volume": "1000 ml",
+    "description": "The absolute pinnacle of computing technology. Powered by a nuclear power cell within, so it can last for hours.",
+    "weight": "112 g",
+    "to_hit": -1,
+    "color": "light_gray",
+    "covers": [ "hand_either" ],
+
+    "price": 12000,
+    "price_postapoc": 1200,
+    "material": [ "plastic_trans" ],
+	    "use_action": [
+      {
+        "target": "wrist_comp_atomic_flashlight",
+        "msg": "You activate the flashlight.",
+        "active": true,
+        "type": "transform"
+      },
+      "CAMERA",
+      "MP3",
+	  "PORTABLE_GAME",
+	  "EINKTABLETPC",
+	  "RADGLOVE"
+    ],
+    "flags": [ "WATCH", "ALARMCLOCK", "WATER_FRIENDLY", "BELTED", "STURDY", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "NO_UNLOAD", "NO_RELOAD", "THERMOMETER", "FANCY" ],
+    "coverage": 15,
+    "symbol": "["
+
+  },
+  
+    {
+    "id": "wrist_comp_atomic_music",
+    "copy-from": "wrist_comp_atomic",
+    "type": "TOOL",
+    "name": { "str": "atomic wrist computer - music", "str_pl": "atomic wrist computers - music" },
+    "description": "This wrist computer is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
+    "revert_to": "wrist_comp_atomic",
+    "use_action": ["MP3_ON" ],
+    "flags": [ "WATCH", "WATER_FRIENDLY", "BELTED", "STURDY", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD", "THERMOMETER", "FANCY" ]
+  },
+  {
+    "id": "wrist_comp_atomic_flashlight",
+    "copy-from": "wrist_comp_atomic",
+    "type": "TOOL",
+    "name": { "str": "atomic wrist computer - Flashlight", "str_pl": "atomic wrist computers - Flashlight" },
+    "revert_to": "wrist_comp_atomic",
+    "use_action": [
+	{
+      "target": "wrist_comp_atomic",
+      "msg": "You deactivate the flashlight app.",
+      "menu_text": "Turn off flashlight",
+      "type": "transform"
+    }
+	],
+    "flags": [ "WATCH", "WATER_FRIENDLY", "BELTED", "STURDY", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "LIGHT_20", "TRADER_AVOID", "ALARMCLOCK", "THERMOMETER", "FANCY" ]
   }
   
   

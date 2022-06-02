@@ -1,0 +1,34 @@
+[
+  {
+    "id": "colt_1855_shotgun",
+    "copy-from": "shotgun_base",
+    "looks_like": "revolver_shotgun",
+    "type": "GUN",
+    "name": { "str": "Colt 1855 Revolving Shotgun" },
+    "description": "An absolutely antique shotgun with a revolving mechanism. The Colt 1855 didn't see much success due to the awkwardness of firing them; if you fire them like a rifle, you risk burning your hand, but if you fire them like a pistol, it just looks and feels weird.",
+    "weight": "7443 g",
+    "volume": "5 L",
+    "price": 75000,
+    "price_postapoc": 1250,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "dispersion": 855,
+    "durability": 6,
+    "clip_size": 6,
+    "reload": 200,
+    "barrel_length": "36 ml",
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "barrel", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "flags": [ "RELOAD_ONE", "RELOAD_EJECT", "NEVER_JAMS" ]
+  }
+  
+]

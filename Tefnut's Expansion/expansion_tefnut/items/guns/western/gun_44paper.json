@@ -1,0 +1,39 @@
+[
+  {
+    "id": "turret_rifle",
+    "copy-from": "rifle_manual",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str_sp": "Porter Turret Rifle" },
+    "description": "This is a very... different, sort of revolver rifle. Instead of the cylinder all facing forwards, each chamber of the rotating cylinder faces a different direction. The porter never really saw success due to just seeming dangerous, what with bullets facing directions besides forwards.",
+    "weight": "3937 g",
+    "volume": "3 L",
+    "price": 89995,
+    "price_postapoc": 3500,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "color": "dark_gray",
+    "ammo": "44paper",
+    "ranged_damage": { "damage_type": "stab", "amount": 2 },
+    "dispersion": 180,
+    "durability": 8,
+    "blackpowder_tolerance": 132,
+    "clip_size": 10,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "rail mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ]
+  }
+  
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "handmade_22dbmg",
+    "looks_like": "hk_mp5",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str_sp": "double-barrel .22 machine gun" },
+    "description": "This handmade .22 lead spewer has a unique double-barrel design which allows it to fire faster than even the American 180. Dispersion and durability take a hit, but this will still work incredibly well, especially mounted on a vehicle. The twin barrels are inside a cooling sleeve, basically negating the tiny amount of heat produced by the small round. It can be fired unmounted, as well, through a conviniently detachable rifle grip, but its big and bulky.",
+    "weight": "4000 g",
+    "volume": "1750 ml",
+    "price": 163000,
+    "price_postapoc": 2500,
+    "to_hit": -2,
+    "bashing": 11,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "light_gray",
+    "ammo": "22",
+    "skill": "smg",
+    "ranged_damage": { "damage_type": "stab", "amount": 4 },
+    "dispersion": 360,
+    "durability": 5,
+    "min_cycle_recoil": 39,
+    "modes": [ [ "DEFAULT", "auto", 12 ] ],
+    "barrel_length": "250 ml",
+    "valid_mod_locations": [
+      [ "accessories", 3 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
+    "magazines": [ [ "22", [ "belt22" ] ] ]
+  }
+]

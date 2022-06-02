@@ -1,0 +1,19 @@
+[
+  {
+    "id": "38_troundstripperclip15",
+    "//": "Tileset whitelist for speedloaders.",
+    "type": "MAGAZINE",
+    "name": { "str": ".38 Tround speedloader" },
+    "description": "This stripperclip can help you quickly load a Dardick model 1500.",
+    "weight": "80 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "38tround" ],
+    "capacity": 15,
+    "flags": [ "SPEEDLOADER" ]
+  }
+]

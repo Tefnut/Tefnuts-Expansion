@@ -177,7 +177,7 @@
     "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 2 ], [ "ammo_bullet", 2 ], [ "ammo_357sig", 1 ] ],
-    "components": [ [ [ "gunpowder", 5 ], [ "gunpowder_rifle", 5 ], [ "gunpowder_magnum_pistol", 5 ] ], [ [ "silver", 1 ] ] ]
+    "components": [ [ [ "gunpowder", 5 ], [ "gunpowder_rifle", 5 ] ], [ [ "silver", 1 ] ] ]
   },
   
     {
@@ -221,7 +221,7 @@
       [ [ "44_casing", 1 ] ],
       [ [ "lgpistol_primer", 1 ] ],
 	  [ [ "silver", 1 ] ],
-      [ [ "gunpowder", 6 ], [ "gunpowder_rifle", 6 ], [ "gunpowder_magnum_pistol", 6 ] ]
+      [ [ "gunpowder", 6 ], [ "gunpowder_rifle", 6 ] ]
     ]
   },
   
@@ -264,7 +264,7 @@
     "components": [
       [ [ "454_casing", 1 ] ],
       [ [ "smrifle_primer", 1 ] ],
-      [ [ "gunpowder", 6 ], [ "gunpowder_rifle", 6 ], [ "gunpowder_magnum_pistol", 6 ] ],
+      [ [ "gunpowder", 6 ], [ "gunpowder_rifle", 6 ] ],
       [ [ "silver", 2 ] ]
     ]
   },
@@ -303,7 +303,7 @@
     "components": [
       [ [ "500_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ],
-      [ [ "gunpowder", 8 ], [ "gunpowder_rifle", 8 ], [ "gunpowder_magnum_pistol", 8 ] ],
+      [ [ "gunpowder", 8 ], [ "gunpowder_rifle", 8 ] ],
       [ [ "silver", 2 ] ]
     ]
   },
@@ -412,7 +412,7 @@
     "charges": 1,
     "reversible": true,
     "using": [ [ "bullet_forming", 8 ], [ "ammo_bullet", 5 ], [ "ammo_270win", 1 ] ],
-    "components": [ [ [ "gunpowder", 10 ], [ "gunpowder_magnum_pistol", 10 ], [ "gunpowder_rifle", 10 ] ], [ [ "silver", 3 ] ] ]
+    "components": [ [ [ "gunpowder", 10 ], [ "gunpowder_rifle", 10 ] ], [ [ "silver", 3 ] ] ]
   },
   
     {
@@ -479,7 +479,7 @@
       [ [ "lgrifle_primer", 1 ] ],
       [
         [ "gunpowder", 8 ],
-        [ "gunpowder_magnum_pistol", 12 ],
+        
         [ "gunpowder_rifle", 12 ],
         [ "gunpowder_large_rifle", 12 ]
       ],
@@ -503,7 +503,7 @@
     "components": [
       [ [ "4570_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ],
-      [ [ "gunpowder", 15 ], [ "gunpowder_rifle", 12 ], [ "gunpowder_magnum_pistol", 12 ] ],
+      [ [ "gunpowder", 15 ], [ "gunpowder_rifle", 12 ] ],
       [ [ "silver", 7 ] ]
     ]
   },
@@ -547,7 +547,7 @@
     "components": [
       [ [ "545_casing", 1 ] ],
       [ [ "smrifle_primer", 1 ] ],
-      [ [ "gunpowder", 5 ], [ "gunpowder_magnum_pistol", 5 ], [ "gunpowder_rifle", 5 ] ],
+      [ [ "gunpowder", 5 ], [ "gunpowder_rifle", 5 ] ],
       [ [ "silver", 1 ] ]
     ]
   },
@@ -571,9 +571,7 @@
       [ [ "smrifle_primer", 1 ] ],
       [
         [ "gunpowder", 6 ],
-        [ "gunpowder_magnum_pistol", 6 ],
-        [ "gunpowder_rifle", 6 ],
-        [ "gunpowder_magnum_pistol", 6 ]
+        [ "gunpowder_rifle", 6 ]
       ],
       [ [ "silver", 1 ] ]
     ]
@@ -620,7 +618,7 @@
       [ [ "lgrifle_primer", 1 ] ],
       [
         [ "gunpowder", 10 ],
-        [ "gunpowder_magnum_pistol", 10 ],
+        
         [ "gunpowder_rifle", 10 ],
         [ "gunpowder_large_rifle", 10 ]
       ],
@@ -645,7 +643,7 @@
     "components": [
       [ [ "762_casing", 1 ] ],
       [ [ "lgrifle_primer", 1 ] ],
-      [ [ "gunpowder", 8 ], [ "gunpowder_magnum_pistol", 8 ], [ "gunpowder_rifle", 8 ] ],
+      [ [ "gunpowder", 8 ], [ "gunpowder_rifle", 8 ] ],
       [ [ "silver", 1 ] ]
     ]
   },
@@ -816,7 +814,7 @@
       [ [ "lgrifle_primer", 1 ] ],
       [
         [ "gunpowder", 10 ],
-        [ "gunpowder_magnum_pistol", 10 ],
+        
         [ "gunpowder_rifle", 10 ],
         [ "gunpowder_large_rifle", 10 ]
       ],
@@ -843,7 +841,7 @@
       [ [ "lgrifle_primer", 1 ] ],
       [
         [ "gunpowder", 10 ],
-        [ "gunpowder_magnum_pistol", 10 ],
+        
         [ "gunpowder_rifle", 10 ],
         [ "gunpowder_large_rifle", 10 ]
       ],
@@ -871,7 +869,7 @@
       [ [ "lgrifle_primer", 1 ] ],
       [
         [ "gunpowder", 10 ],
-        [ "gunpowder_magnum_pistol", 10 ],
+        
         [ "gunpowder_rifle", 10 ],
         [ "gunpowder_large_rifle", 10 ]
       ],

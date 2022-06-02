@@ -1,0 +1,23 @@
+[
+  {
+    "id": "31rocketball",
+    "type": "AMMO",
+    "name": { "str": ".31 rocket ball" },
+    "description": "One of the first metallic cartridges ever invented and used. The rocket ball was forgotten for its weakness, being weaker than even modern pocket pistol cartridges. Still, its better than having no gun whatsoever.",
+    "weight": "6 g",
+    "volume": "250 ml",
+    "price": 400,
+    "price_postapoc": 1000,
+    "material": [ "powder", "lead" ],
+    "symbol": "=",
+    "color": "white",
+    "count": 25,
+    "ammo_type": "31rocketball",
+    "range": 15,
+    "damage": { "damage_type": "stab", "amount": 16 },
+    "dispersion": 80,
+    "recoil": 210,
+    "effects": [ "COOKOFF", "MUZZLE_SMOKE", "BLACKPOWDER" ]
+  }
+  
+]

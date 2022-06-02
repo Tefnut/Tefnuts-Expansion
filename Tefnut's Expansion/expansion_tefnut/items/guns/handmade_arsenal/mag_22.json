@@ -1,0 +1,22 @@
+[
+    {
+    "id": "belt22",
+    "copy-from": "magazine_belt",
+    "type": "MAGAZINE",
+    "name": { "str": ".22 ammo belt" },
+    "ammo_type": "22",
+    "capacity": 500,
+    "count": 100,
+    "default_ammo": "22_lr",
+    "linkage": "ammolink22"
+  },
+  
+    
+    {
+    "id": "ammolink22",
+    "copy-from": "ammolink",
+    "type": "GENERIC",
+    "name": { "str": ".22 ammo belt linkage" },
+    "use_action": { "type": "ammobelt", "belt": "belt22" }
+  }
+]

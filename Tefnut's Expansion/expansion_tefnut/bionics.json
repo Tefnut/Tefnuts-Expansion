@@ -1,0 +1,26 @@
+[
+  {
+    "id": "bio_stroheim_gun",
+    "type": "bionic",
+    "name": { "str": "Chest Machine Gun" },
+    "description": "Implanted in your torso is a 5.56 machine gun, and a marvel of German science. Activate to ready it for use.",
+    "occupied_bodyparts": [ [ "torso", 10 ] ],
+    "encumbrance": [ [ "torso", 10 ] ],
+    "act_cost": "50 J",
+    "fake_item": "bio_stroheim_gun_active",
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD" ]
+  },
+  
+    {
+    "id": "bio_stroheim_light",
+    "type": "bionic",
+    "name": { "str": "Shoulder-Mounted floodlight" },
+    "description": "Surgically mounted between on your shoulders are a pair of super bright floodlights that replicate the light of the sun.",
+    "occupied_bodyparts": [ [ "arm_l", 4 ], [ "arm_r", 4 ] ],
+	    "encumbrance": [ [ "arm_r", 10 ], [ "arm_r", 10 ] ],
+    "act_cost": "13 J",
+    "react_cost": "13 J",
+    "time": 1,
+    "flags": [ "BIONIC_TOGGLED" ]
+  }
+]

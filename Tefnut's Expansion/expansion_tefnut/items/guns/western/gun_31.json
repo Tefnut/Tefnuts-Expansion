@@ -1,0 +1,112 @@
+[
+  {
+    "id": "volcanic_pistol_vintage",
+    "copy-from": "pistol_revolver_cap_ball",
+    "looks_like": "colt_navy",
+    "type": "GUN",
+    "name": { "str_sp": "Volcanic M1855 Pistol" },
+    "description": "The Volcanic Repeating Arms Model 1855 pistol, in the venerable .31 Rocket Ball round. Weak, but has a good capacity.",
+    "weight": "1184 g",
+    "volume": "540 ml",
+    "price": 30000,
+    "price_postapoc": 3000,
+    "to_hit": -1,
+    "bashing": 8,
+    "material": [ "steel", "wood" ],
+    "ammo": "31rocketball",
+    "dispersion": 450,
+    "durability": 7,
+    "blackpowder_tolerance": 96,
+    "clip_size": 8,
+    "proportional": { "reload": 2.0 }
+  },
+  
+  
+    {
+    "id": "volcanic_rifle_vintage",
+    "copy-from": "rifle_manual",
+    "looks_like": "1895sbl",
+    "type": "GUN",
+    "name": { "str": "Volcanic M1855 Rifle" },
+    "description": "The Volcanic Repeating Arms Model 1855 rifle, in the venerable .31 Rocket Ball round. Incredibly weak, it has an incredible capacity, while also doing more damage than the pistol, being a rifle and all. Still, this may be a better trophy than a weapon.",
+    "weight": "3650 g",
+    "volume": "2250 ml",
+    "price": 100000,
+    "price_postapoc": 2500,
+    "to_hit": 1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "symbol": "(",
+    "color": "light_blue",
+    "ammo": [ "31rocketball" ],
+    "dispersion": 200,
+    "durability": 8,
+    "clip_size": 18,
+    "valid_mod_locations": [
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "flags": [ "RELOAD_ONE" ]
+  },
+
+  {
+    "id": "volcanic_pistol_modern",
+    "copy-from": "pistol_revolver_cap_ball",
+    "looks_like": "colt_navy",
+    "type": "GUN",
+    "name": { "str_sp": "TAC Eruption Pistol" },
+    "description": "Based off the Volcanic Repeating Arms Model 1855 pistol, the Tefnut Armanent Company Eruption Pistol is made to be a collector's gun, for those who really want a volcanic-styled pistol. It has golden engravings, and is properly designed to maximize the weak round's effectiveness.",
+    "weight": "1184 g",
+    "volume": "540 ml",
+    "price": 30000,
+    "price_postapoc": 3000,
+    "to_hit": -1,
+    "bashing": 8,
+    "material": [ "steel", "wood", "silver" ],
+    "ammo": "31rocketball",
+    "dispersion": 150,
+    "durability": 7,
+    "blackpowder_tolerance": 96,
+    "clip_size": 12,
+    "proportional": { "reload": 2.0 }
+  },
+  
+  
+    {
+    "id": "volcanic_rifle_modern",
+    "copy-from": "rifle_manual",
+    "looks_like": "1895sbl",
+    "type": "GUN",
+    "name": { "str": "TAC Eruption Rifle" },
+    "description": "Based off the Volcanic Repeating Arms Model 1855 rifle, the Tefnut Armanent Company Eruption Pistol is made to be a collector's gun, for those who really want a volcanic-styled pistol. It has golden engravings, and is properly designed to maximize the weak round's effectiveness, while carrying stupendous amounts of rounds for a lever-action rifle.",
+    "weight": "3650 g",
+    "volume": "2250 ml",
+    "price": 100000,
+    "price_postapoc": 2500,
+    "to_hit": 1,
+    "bashing": 12,
+    "material": [ "steel", "wood", "silver" ],
+    "symbol": "(",
+    "color": "light_blue",
+    "ammo": [ "31rocketball" ],
+    "dispersion": 200,
+    "durability": 8,
+    "clip_size": 26,
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "rail mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "flags": [ "RELOAD_ONE" ]
+  }
+  
+  
+]

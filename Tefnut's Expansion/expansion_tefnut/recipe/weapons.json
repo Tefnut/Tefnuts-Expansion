@@ -15,7 +15,108 @@
   
 [ [ "nail", 5 ] ]
   ]
+  },
+  
+  
+    {
+    "result": "handmade_smg_44mag",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ [ "gun", 3 ] ],
+    "time": "40 m",
+    "book_learn": [ [ "recipe_guns", 5 ] ],
+    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "DRILL", "level": 2 }
+    ],
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 2 ] ], [ [ "scrap", 20 ] ], [ [ "steel_chunk", 2 ] ], [ [ "spring", 1 ] ], [ [ "2x4", 1 ] ] ]
+  },
+  
+  
+      {
+    "result": "handmade_22dbmg",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "skills_required": [ [ "gun", 3 ] ],
+    "time": "40 m",
+    "book_learn": [ [ "recipe_guns", 5 ] ],
+    "using": [ [ "steel_tiny", 3 ], [ "welding_standard", 15 ] ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "SCREW_FINE", "level": 1 },
+      { "id": "WRENCH_FINE", "level": 1 },
+      { "id": "HAMMER", "level": 3 },
+      { "id": "DRILL", "level": 2 }
+    ],
+    "tools": [ [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "small_repairkit", 100 ], [ "large_repairkit", 100 ] ] ],
+    "components": [ [ [ "pipe", 4 ] ], [ [ "scrap", 40 ] ], [ [ "steel_chunk", 4 ] ], [ [ "spring", 2 ] ], [ [ "2x4", 1 ] ] ]
+  },
+
+  {
+    "result": "luty44mag",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "skills_required": [ "gun", 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 1 ] ], [ [ "spring", 1 ] ], [ [ "duct_tape", 40 ] ] ]
+  },
+    {
+    "result": "luty44bigmag",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 3,
+    "skills_required": [ "gun", 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 2 ] ], [ [ "spring", 1 ] ], [ [ "duct_tape", 40 ] ] ]
+  },
+  
+    {
+    "result": "luty44drum",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [ "gun", 1 ],
+    "time": "20 m",
+    "autolearn": true,
+    "qualities": [ { "id": "SAW_M", "level": 1 }, { "id": "HAMMER", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "sheet_metal_small", 3 ] ], [ [ "spring", 1 ] ], [ [ "duct_tape", 40 ] ] ]
+  },
+  
+    {
+    "type": "recipe",
+    "result": "mosin_makeshift",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "mechanics",
+    "skills_required": [ "gun", 3 ],
+    "difficulty": 5,
+    "time": "14 m",
+    "reversible": true,
+    "autolearn": true,
+	"book_learn": [ [ "recipe_guns", 2 ] ],
+    "qualities": [ { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [ [ [ "pipe", 1 ] ], [ [ "2x4", 1 ] ], [ [ "scrap", 8 ] ] ]
   }
-
-
 ]

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "ammunition_type",
+    "id": "31rocketball",
+    "name": ".31 Volcanic",
+    "default": "31rocketball"
+  }
+  
+]

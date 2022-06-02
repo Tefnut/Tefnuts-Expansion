@@ -32,6 +32,13 @@
     "id": "8ga",
     "name": "8 Gauge Shotgun Shell",
     "default": "8ga_00"
+  },
+  
+    {
+    "type": "ammunition_type",
+    "id": "38tround",
+    "name": ".38 Tround",
+    "default": "38_tround"
   }
   
 ]

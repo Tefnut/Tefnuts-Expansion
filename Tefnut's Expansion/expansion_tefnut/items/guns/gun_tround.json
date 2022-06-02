@@ -1,0 +1,109 @@
+[
+  {
+    "id": "dardick_1500",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": { "str_sp": "Dardick Model 1500" },
+    "description": "A strange 'revolver' from the 60s that fires triangular 'trounds'. It never really picked up in popularity, and mostly existed as a collector's item. Maybe it should stay that way in this post-cataclysm world, since better options exist even among trounds. At least it carries a lot of shots.",
+    "weight": "975 g",
+    "volume": "402 ml",
+    "price": 42400,
+    "price_postapoc": 1250,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "steel", "aluminum" ],
+    "color": "black",
+    "ammo": "38tround",
+    "dispersion": 480,
+    "durability": 6,
+    "blackpowder_tolerance": 56,
+    "clip_size": 15,
+    "magazines": [ [ "38tround", [ "38_troundstripperclip15" ] ] ]
+  },
+  
+  
+    {
+    "id": "dardick_1500_replica",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": { "str_sp": "replica Dardick Model 1500" },
+    "description": "A strange gun from the 60s that fires triangular 'trounds'. It never really picked up in popularity, and mostly existed as a collector's item. Maybe it should stay that way in this post-cataclysm world, since better options exist even among trounds. This one's fully functional, but partially made out of translucent plastic for whatever reason. Maybe the plastic parts were made for use in a show that described weapons that people forgot",
+    "weight": "975 g",
+    "volume": "402 ml",
+    "price": 42400,
+    "price_postapoc": 1250,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "steel", "aluminum", "plastic_trans" ],
+    "color": "dark_gray",
+    "ammo": "38tround",
+    "dispersion": 480,
+    "durability": 6,
+    "blackpowder_tolerance": 56,
+    "clip_size": 15,
+    "magazines": [ [ "38tround", [ "38_troundstripperclip15" ] ] ]
+  },
+  
+  
+    {
+    "id": "dardick_1500_carbine",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": { "str_sp": "Dardick Model 1500 carbine" },
+    "description": "A strange gun from the 60s that fires triangular 'trounds'. It never really picked up in popularity, and mostly existed as a collector's item. Maybe it should stay that way in this post-cataclysm world, since better options exist even among trounds. This one's been converted to a carbine for some reason.",
+    "weight": "2050 g",
+    "volume": "804 ml",
+    "price": 42400,
+    "price_postapoc": 1250,
+    "to_hit": -2,
+    "bashing": 9,
+	"skill": "rifle",
+	"barrel_length": "750 ml",
+	"valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "muzzle", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "material": [ "steel", "aluminum" ],
+    "color": "dark_gray",
+    "ammo": "38tround",
+    "dispersion": 480,
+    "durability": 6,
+    "blackpowder_tolerance": 56,
+    "clip_size": 15,
+    "magazines": [ [ "38tround", [ "38_troundstripperclip15" ] ] ]
+  },
+  
+  
+    {
+    "id": "dardick_2000",
+    "copy-from": "pistol_revolver",
+    "looks_like": "sw_619",
+    "type": "GUN",
+    "name": { "str_sp": "Dardick Model 2000" },
+    "description": "A rare gun from the late 60s, and an evolution off the Dardick model 1500, this pistol holds 20 trounds instead. It is not compatable with speedloaders, however.",
+    "weight": "975 g",
+    "volume": "402 ml",
+    "price": 42400,
+    "price_postapoc": 1250,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "steel", "aluminum" ],
+    "color": "dark_gray",
+    "ammo": "38tround", 
+    "dispersion": 480,
+    "durability": 6,
+    "blackpowder_tolerance": 56,
+    "clip_size": 20
+  }
+  
+  
+]

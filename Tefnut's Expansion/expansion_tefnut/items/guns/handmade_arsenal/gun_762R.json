@@ -1,0 +1,35 @@
+[
+  {
+    "id": "mosin_makeshift",
+    "copy-from": "rifle_manual",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str_sp": "makeshift 7.62x55mmR rifle" },
+    "description": "A makeshift bolt-action rifle, based on the mosin-nagant rifle. Durability and accuracy take a decent hit, but it it still packs a real punch.",
+    "weight": "4000 g",
+    "volume": "3 L",
+    "price": 19000,
+    "price_postapoc": 3000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "wood" ],
+    "color": "brown",
+    "ammo": "762R",
+    "range": 3,
+    "dispersion": 180,
+    "durability": 8,
+    "clip_size": 5,
+    "barrel_length": "1000 ml",
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ]
+    ],
+    "magazines": [ [ "762R", [ "762R_clip" ] ] ],
+    "flags": [ "RELOAD_ONE" ]
+  }
+]

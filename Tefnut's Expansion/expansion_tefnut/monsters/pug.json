@@ -12,7 +12,9 @@
     "morale": 8,
     "melee_skill": 3,
     "melee_dice_sides": 2,
-    "melee_cut": 2,
+	
+    "melee_damage": [ { "damage_type": "cut", "amount": 2 } ],
+	
     "vision_night": 6,
     "harvest": "mammal_tiny",
     "fear_triggers": [ "HURT" ],
@@ -31,6 +33,7 @@
       "WARM"
     ]
   },
+  
   {
     "id": "mon_dog_pug_pup",
     "type": "MONSTER",
@@ -52,7 +55,9 @@
     "melee_skill": 1,
     "melee_dice": 1,
     "melee_dice_sides": 1,
-    "melee_cut": 1,
+	
+    "melee_damage": [ { "damage_type": "cut", "amount": 1 } ],
+	
     "dodge": 1,
     "vision_night": 5,
     "harvest": "mammal_tiny",
